@@ -1,0 +1,15 @@
+BEGIN {FS="|";print"Out Put of the Given File"}
+
+{NR>=3
+ if($3>750)
+   {print $1 "|" $2 "|" $3 "--->" "buy1get2";
+     if($3>500)
+       {print $1 "|" $2 "|" $3 "--->" "Free Delivery";}
+     else 
+      {print $1 "|" $2 "|" $3 "--->" "";}
+   }
+ else
+  {print $1 "|" $2 "|" $3 "--->" "100RsCashBack";}
+}
+
+END {print "END..Thank you for using... "}

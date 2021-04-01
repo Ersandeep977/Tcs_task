@@ -1,0 +1,7 @@
+Book ID|Book Name|Price
+101|unscripted|850
+102|alchemist|660
+103|wing of fire|440
+104|soft skills|590
+105|Rich Dad poor Dad|250
+106|The way of man|900
